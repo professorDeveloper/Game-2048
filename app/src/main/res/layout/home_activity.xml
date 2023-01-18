@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HomeActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/image_type"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/img_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/previous_game_type"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:layout_constraintBottom_toBottomOf="@+id/image_type"
+        app:layout_constraintEnd_toStartOf="@+id/image_type"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_type"
+        app:tint="#CCC3BB" />
+
+    <TextView
+        android:id="@+id/game_type_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Classic(4x4)"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/image_type"
+        app:layout_constraintHorizontal_bias=".4"
+        app:layout_constraintStart_toStartOf="@+id/image_type"
+        app:layout_constraintTop_toBottomOf="@+id/image_type" />
+
+    <ImageView
+
+        android:id="@+id/next_type_game"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+        android:background="?selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+        app:layout_constraintBottom_toBottomOf="@+id/previous_game_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image_type"
+        app:layout_constraintTop_toTopOf="@+id/previous_game_type"
+        app:tint="#CCC3BB" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/start_game"
+        android:layout_width="294dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#f69564"
+        android:text="Start Game"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/image_type"
+        app:layout_constraintStart_toStartOf="@+id/image_type"
+        app:layout_constraintTop_toBottomOf="@+id/game_type_name"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/about_info"
+        android:layout_width="294dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#f69564"
+
+        android:text="About Game"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/image_type"
+        app:layout_constraintStart_toStartOf="@+id/image_type"
+        app:layout_constraintTop_toBottomOf="@+id/start_game"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/share_game"
+        android:layout_width="140dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#f69564"
+        android:text="Share Game"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="@+id/about_info"
+        app:layout_constraintTop_toBottomOf="@+id/about_info" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rate_game"
+        android:layout_width="140dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#f69564"
+        android:text="Rate Game"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/about_info"
+        app:layout_constraintTop_toBottomOf="@+id/about_info" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

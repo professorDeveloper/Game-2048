@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">2048 Game</string>
+    <string name="dialog_quit_game">Would you to like leave ?</string>
+    <string name="tv_win_dialog">It took you %1$s moves</string>
+</resources>

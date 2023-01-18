@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/bg_item.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/bg_item0.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/bg_item_1024.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/bg_item_2.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_1024.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_128.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_16.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_2.xml" value="0.1595" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_2048.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_256.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_32.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_4.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_4096.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_512.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_64.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/color_8.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable-v24/score_bg.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/drawable/share_bg.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/about_game.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/activity_game.xml" value="0.2988679352838745" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/activity_game_big.xml" value="0.19924529018924966" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/activity_game_small.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/dialog_game_over.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/exit_dialog.xml" value="0.30885416666666665" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/finish_dialog.xml" value="0.3098958333333333" />
+        <entry key="..\:/AndroidStudioProjects/Game2048/app/src/main/res/layout/home_activity.xml" value="0.2988679352838745" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

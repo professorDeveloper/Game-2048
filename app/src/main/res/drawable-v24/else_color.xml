@@ -1,0 +1,24 @@
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <!-- SHADOW -->
+            <item>
+                <shape>
+                    <padding android:bottom="2.5dp"/>
+                    <solid android:color="#6E020F" />
+                    <!-- alttan gölge -->
+                    <corners android:radius="10dp" />
+                </shape>
+            </item>
+            <!-- BUTTON alttan gölge
+              android:right="5px" to make it round-->
+            <item android:bottom="5px">
+                <shape>
+                    <solid android:color="#BC031A"/>
+                    <corners android:radius="9dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
